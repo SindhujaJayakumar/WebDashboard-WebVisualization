@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(152, 81, 170);
+}
+
+h1 {
+     color: rgb(12, 173, 167);
+     background-color: rgb(195, 183, 226);
+     font-family: times new roman;
+     font-weight: bold;
+}
+
+h3 {
+     color: rgb(12, 173, 167);
+     background-color: rgb(219, 219, 186);
+     font-family: times new roman;
+     font-weight: bold;
+}
+img{
+    width:100% !important;
+    height:100% !important;
+}
+.active, .panel:hover{
+    border-color:#0BADA6;
+    border-style: solid; 
+    
+}
+.vizualization{
+    width:50% !important;
+    height:50% !important;
+}
+}
+
+p {
+   font-family: sans-serif;
+   font-size: 12
+}
+
+.container {
+  background-color: rgb(238, 220, 220);
+}
+
+.navbar {
+         padding-left: 50px;
+}
+
+.navbar-brand {
+               background-color: rgba(12, 173, 159, 0);
+               font-family: times new roman;
+               font-weight: bold;
+               color: rgb(167, 161, 161);
+}
+
+/* Here we define a navbar style that will ONLY be applied at screen sizes below 480 pixels */
+@media (max-width: 480px) {
+  .navbar {
+    background-color: rgb(12, 68, 173);
+}
+
+  .navbar-brand {
+                 background-color: white;
+                 font-family: times new roman;
+                 font-weight: bold;
+                 color: rgb(184, 175, 151);
