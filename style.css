@@ -3,15 +3,15 @@ body {
 }
 
 h1 {
-     color: rgb(12, 173, 167);
-     background-color: rgb(106, 55, 235);
+     color: rgb(155, 66, 147);
+     background-color: rgb(162, 158, 172);
      font-family: times new roman;
      font-weight: bold;
 }
 
 h3 {
-     color: rgb(173, 12, 159);
-     background-color: rgb(16, 16, 17);
+     color: rgb(146, 70, 140);
+     background-color: rgb(234, 234, 240);
      font-family: times new roman;
      font-weight: bold;
 }
@@ -36,43 +36,35 @@ p {
 }
 /* Title Class  */
 .title{
-  color: #0BADA6;  
+  color: rgb(124, 66, 116);  
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder; 
   padding-top: 10px; 
 }
-/* Paragraph Element */
-p{
-color: #6D8092;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 14px;
-
-@media(max-width: 992px);
-
-  .navbar-expand-lg{
-  background-color: rgb(173, 11, 119);
-  }
-  .navbar{
-      max-height: none; 
-      padding: inherit;
-  }
- 
- 
-.navbar div{
-      margin: inherit; 
-      background-color: blue;  
-  }
-  .navbar-brand{
-      padding: 10px; 
-  }
-  
-  button{
-      margin-right: 30px; 
-  }
-  button:focus {
-  
-      outline: 1px dotted;
-      outline: 5px auto -webkit-focusring-color;
-      
-      }
-  }
+/* Media Queries */
+@media(max-width: 992px){
+    .navbar-expand-lg{
+    background-color: rgb(131, 61, 108) !important;
+    }
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+    .navbar div{
+        margin: inherit; 
+        background-color: rgb(139, 139, 151);  
+    }
+    .navbar-brand{
+        padding: 10px !important; 
+    }
+    
+    button{
+        margin-right: 30px; 
+    }
+    button:focus {
+    
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focusring-color;
+        
+        }
+    }
